@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>三栏式布局</title>
+</head>
+<style type="text/css">
+
+.content, #content_left, #content_right, .logo {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px; 
+	border:1px solid #999;
+}
+
+.content, .logo {
+	background: #eee;
+}
+
+.content {
+	margin:0 auto;
+	padding: 20px;
+	width:1200px;
+	height:800px;
+	overflow: auto;
+}
+#content_left {
+	background: white;
+	padding: 10px;
+	width:200px;
+	float: left;
+}
+
+#content_right {
+	float: right;
+	background: white;
+	padding: 10px;
+	width: 120px;
+}
+
+#content_center {
+	margin-left: 240px;
+  	margin-right: 180px;
+	border:1px solid #999;
+	padding: 10px;
+	background: white;
+}
+
+#photo {
+	float:left;
+}
+
+p {
+	word-break: break-all;
+	white-space: normal;
+}
+</style>
+<body>
+		<div class="content">
+			<div id="content_left">
+				<div class="logo" id="photo">个人logo<br/>80*80</div>
+				<p>团队名称</p>
+			</div>
+			<div id="content_right">
+				<div class="logo">个人logo<br/>80*80</div>
+				<div class="logo">个人logo<br/>80*80</div>
+				<div class="logo">个人logo<br/>80*80</div>
+				<div class="logo">个人logo<br/>80*80</div>
+			</div>
+			<div id="content_center">
+				<h2>红鲤鱼与绿鲤鱼与驴队</h2>
+        		<h3>团队介绍</h3>
+				<p>
+				a51d654asd654a51d654asd654a51d654asd654a51d654asd654a51d654asd654a51d654asd654a51d654asd654a51d654asd654a51d654asd65
+				</p>
+			</div>
+		</div>
+</body>
+</html>
